@@ -7,9 +7,9 @@
 
 </head>
 <body>
-  <div id="out">
+  <span id="out">
 
-  </div>
+  </span>
 
 
 </body>
@@ -22,5 +22,7 @@ function exec (input) {
 }
 
 var twenty = exec("4 * 5");
-alert(twenty);
+
+var out = document.getElementById("out")
+out.textContent = twenty
 </script>
